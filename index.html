@@ -4,11 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cv</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="gridContainer">
-      <div class="header">Header</div>
+      <div class="header">
+        <div id="colored" class="colored">Title</div>
+        <div>
+          <!-- <span class="line-md--light-dark"></span> -->
+          <button id="change-color"><i class="line-md--light-dark"></i></button>
+          <!--  <button id="change-color">byt färg</button> -->
+        </div>
+      </div>
       <div class="picOfMe">picOfMe</div>
       <div class="aboutMe">AboutMe</div>
       <div class="navBar">navBar</div>
@@ -16,8 +23,38 @@
       <div class="picOfMeTwo">picOfMeTwo</div>
       <div class="techSkills">techSkills</div>
       <div class="softSkills">softSkills</div>
-      <div class="projects">projects</div>
+
+      <div class="projects">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front"></div>
+            <div class="flip-card-back">
+              <h1>Timber & Stone</h1>
+              <p>about paragraph</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front"></div>
+            <div class="flip-card-back">
+              <h1>Spring Security</h1>
+              <p>about paragraph</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front"></div>
+            <div class="flip-card-back">
+              <h1>Plant Swap</h1>
+              <p>about paragraph</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="footer">footer</div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
