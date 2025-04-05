@@ -1,4 +1,6 @@
 /* https://www.w3schools.com/jsref/met_document_queryselectorall.asp */
+/*https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage*/
+/*https://developer.chrome.com/docs/devtools/storage/localstorage*/
 document.addEventListener("DOMContentLoaded", function () {
   let localStorageColor = localStorage.getItem("color");
   console.log(localStorageColor);
