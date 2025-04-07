@@ -5,79 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cv</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Boldonse&family=Playwrite+HU:wght@100..400&family=Quicksand:wght@300..700&display=swap");
+    </style>
   </head>
   <body>
     <script src="script.js"></script>
+    <!-- CONTAINER OPEN -->
     <div class="gridContainer">
       <!-- HEADER OPEN -->
       <header class="siteHeader">
-        <h1>Oliwer Karlsson - Utvecklare</h1>
+        <h1 class="quicksand">Oliwer Karlsson - Utvecklare</h1>
         <div>
           <button id="change-color" class="line-md--light-dark"></button>
         </div>
       </header>
       <!-- HEADER CLOSE -->
-      <div class="picOfMe">picOfMe</div>
+      <!-- navBar OPEN -->
+      <nav class="navBar">
+        <a
+          href="https://github.com/Ollie1994"
+          target="_blank"
+          class="octicon--mark-github-24"
+        ></a>
+
+        <a
+          href="mailto:oliwer.carlsson.jobb@gmail.com"
+          target="_blank"
+          class="oui--email"
+        ></a>
+
+        <a
+          href="tel:+46704820129"
+          target="_blank"
+          class="fluent--phone-28-regular"
+        ></a>
+
+        <a href="cvPlaceHolder" target="_blank" class="pepicons-pencil--cv"></a>
+
+        <a
+          href="coverLetterPlaceHolder"
+          target="_blank"
+          class="quill--paper"
+        ></a>
+      </nav>
+      <!-- navBar CLOSE -->
       <!-- SECTION OPEN -->
       <section class="aboutMe">
         <h2>About Me</h2>
         <p>
-          BLa ablasglfaslfas. Hasdfasfkaskf, dasdhashdhasd. SADHsahdhashd aasdas
-          d. Hejmasdfasmfasjfas, ashdashdhashd.
+          Motiverad och driven utvecklare som älskar att lösa problem. Är nu 6
+          månader in i en 2 årig utbildning där jag bland annat lärt mig:
+        </p>
+        <ul>
+          <li>
+            Java, PostgreSQL, MongoDB, Postman, Spring, Docker, GitHub, Git,
+            IntelliJ
+          </li>
+          <li>Agil utveckling och SCRUM inom ett team</li>
+          <li>Användning av GitHub för projektstyrning och sprintplanering</li>
+          <li>
+            Skapande av REST API:er med Spring Boot och säkerhets implementering
+            med Spring Security
+          </li>
+        </ul>
+        <p>
+          <strong>Mål:</strong> Att utvecklas maximalt inom utvecklarrollen
+          genom egna projekt, open source-bidrag samt planer på att ta ett AWS
+          Cloud Practitioner-certifikat under sommaren.
         </p>
       </section>
       <!-- SECTION CLOSE -->
-      <!-- navBar OPEN -->
-      <nav class="navBar">
-        <ul>
-          <li>
-            <a
-              href="https://github.com/Ollie1994"
-              target="_blank"
-              class="octicon--mark-github-24"
-            ></a>
-          </li>
-          <li>
-            <a
-              href="mailto:oliwer.carlsson.jobb@gmail.com"
-              target="_blank"
-              class="oui--email"
-            ></a>
-          </li>
-          <li>
-            <a
-              href="tel:+46704820129"
-              target="_blank"
-              class="fluent--phone-28-regular"
-            ></a>
-          </li>
-          <li>
-            <a
-              href="asdasdasdas"
-              target="_blank"
-              class="pepicons-pencil--cv"
-            ></a>
-          </li>
-          <li>
-            <a
-              href="asdasdasdsdfdsdsasdasdas"
-              target="_blank"
-              class="quill--paper"
-            ></a>
-          </li>
-        </ul>
-      </nav>
-      <!-- navBar CLOSE -->
       <!-- SECTION OPEN -->
       <section class="edBack">
         <h2>Educational Background</h2>
-        <p>
-          BLa ablasglfaslfas. Hasdfasfkaskf, dasdhashdhasd. SADHsahdhashd aasdas
-          d. Hejmasdfasmfasjfas, ashdashdhashd.
-        </p>
+        <ul>
+          <li>
+            Lokförare - Trafikverksskolan - 2022-03-14 till 2023-02-10
+          </li>
+          <li>
+            Javautvecklare - Teknikhögskolan - Augusti 2024 till Pågående
+          </li>
+        </ul>
       </section>
       <!-- SECTION CLOSE -->
-      <div class="picOfMeTwo">picOfMeTwo</div>
       <!-- SECTION OPEN -->
       <section class="techSkills">
         <h2>Technical Skills</h2>
@@ -96,6 +107,7 @@
         </p>
       </section>
       <!-- SECTION CLOSE -->
+      <!-- PROJECTS OPEN -->
       <div class="projects">
         <div class="flip-card">
           <div class="flip-card-inner">
@@ -128,7 +140,11 @@
           </div>
         </div>
       </div>
-      <div class="footer">footer</div>
+      <!-- PROJECTS CLOSE -->
+      <!-- FOOTER OPEN -->
+      <footer class="siteFooter">footer</footer>
+      <!-- FOOTER CLOSE -->
     </div>
+    <!-- CONTAINER CLOSE -->
   </body>
 </html>

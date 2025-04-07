@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const changeColorButton = document.getElementById("change-color");
   /*   const colored = document.getElementById("colored");  BEHÖVER JAG DENNA ????*/
   const nodeList = document.querySelectorAll(
-    "body, html, .siteHeader, .footer, .aboutMe, .techSkills, .softSkills, .edBack, .navBar, .projects, .picOfMe, .picOfMeTwo"
+    "body, html, .siteHeader, .siteFooter, .aboutMe, .techSkills, .softSkills, .edBack, .navBar, .projects"
   );
   const nodeListTextColor = document.querySelectorAll(
-    ".line-md--light-dark, a, .siteHeader, .footer, .aboutMe, .techSkills, .softSkills, .edBack, .navBar, .projects, .picOfMe, .picOfMeTwo"
+    ".line-md--light-dark, a, .siteHeader, .siteFooter, .aboutMe, .techSkills, .softSkills, .edBack, .navBar, .projects"
   );
 
   for (let i = 0; i < nodeList.length; i++) {
@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("list" + nodeList[i]);
     for (let i = 0; i < nodeListTextColor.length; i++) {
       nodeListTextColor[i].style.color = localStorageColorText;
+      nodeListTextColor[i].style.borderColor = localStorageColorText;
       console.log("list" + nodeListTextColor[i]);
     }
   }
@@ -47,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
         nodeList[i].style.backgroundColor = currentColor;
         for (let i = 0; i < nodeListTextColor.length; i++) {
           nodeListTextColor[i].style.color = currentColorText;
+          nodeListTextColor[i].style.borderColor = currentColorText;
           console.log("list" + nodeListTextColor[i]);
         }
       }
@@ -61,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
         nodeList[i].style.backgroundColor = currentColor;
         for (let i = 0; i < nodeListTextColor.length; i++) {
           nodeListTextColor[i].style.color = currentColorText;
+          nodeListTextColor[i].style.borderColor = currentColorText;
           console.log("list" + nodeListTextColor[i]);
         }
       }

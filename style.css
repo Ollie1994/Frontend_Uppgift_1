@@ -22,8 +22,8 @@ button {
 /* IMPORTED ICONS */
 .line-md--light-dark {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cdefs%3E%3Cmask id='lineMdLightDark0'%3E%3Ccircle cx='7.5' cy='7.5' r='5.5' fill='%23fff'/%3E%3Ccircle cx='11' cy='7.5' r='6.5'/%3E%3C/mask%3E%3Cmask id='lineMdLightDark1'%3E%3Cg fill='%23fff'%3E%3Ccircle cx='12' cy='15' r='5.5'/%3E%3Cg%3E%3Cuse href='%23lineMdLightDark2' transform='rotate(-75 12 15)'/%3E%3Cuse href='%23lineMdLightDark2' transform='rotate(-25 12 15)'/%3E%3Cuse href='%23lineMdLightDark2' transform='rotate(25 12 15)'/%3E%3Cuse href='%23lineMdLightDark2' transform='rotate(75 12 15)'/%3E%3C/g%3E%3C/g%3E%3Cpath d='M0 10h26v5h-26z'/%3E%3Cpath stroke='%23fff' stroke-width='2' d='M23 12h-22'/%3E%3C/mask%3E%3Csymbol id='lineMdLightDark2'%3E%3Cpath d='M10.5 21.5h3L12 24z'/%3E%3C/symbol%3E%3C/defs%3E%3Cg fill='%23000'%3E%3Crect width='13' height='13' x='1' y='1' mask='url(%23lineMdLightDark0)'/%3E%3Cpath d='M-2 11h28v13h-28z' mask='url(%23lineMdLightDark1)' transform='rotate(-45 12 12)'/%3E%3C/g%3E%3C/svg%3E");
   background-color: currentColor;
   -webkit-mask-image: var(--svg);
@@ -34,6 +34,8 @@ button {
   mask-size: 100% 100%;
   /*det jag själv lägger till*/
   position: fixed;
+  margin-left: 2;
+  padding-left: 5%;
 }
 .octicon--mark-github-24 {
   display: inline-block;
@@ -109,16 +111,13 @@ button {
   width: 100%;
   height: 100%;
   padding: 0 5% 0 5%;
-
-  grid-template-rows: 40% 30% 10% 30% 50% 25% 20%; /*ÄNDRA SEN */
+  grid-template-rows: 20% 10% 60% 70% 20% 20%;
   /* grid-template-columns: ; */ /*ÄNDRA SEN FÖR att få pillars till projecten*/
   gap: 30px;
-
   grid-template-areas:
     "header header header header header header"
-    "picOfMe picOfMe aboutMe aboutMe aboutMe aboutMe"
     "navBar navBar navBar navBar navBar navBar"
-    "edBack edBack edBack edBack picOfMeTwo picOfMeTwo"
+    "edBack edBack edBack aboutMe aboutMe aboutMe"
     "techSkills techSkills techSkills softSkills softSkills softSkills"
     "projects projects projects projects projects projects"
     "footer footer footer footer footer footer";
@@ -126,14 +125,8 @@ button {
 .siteHeader {
   display: flex;
   justify-content: space-between;
-
-  /*Borde nog in ha en bild utan bara snygga fonts och borders och färger*/
-  /* background-image: url("");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: 100% 100%;
- */
+  padding: 2% 0 0 2%;
+  margin-top: 2%;
 }
 a {
   /* DENNA MANIUPLERAR VI vi light o DARK*/
@@ -146,27 +139,23 @@ a:hover {
   cursor: pointer;
 }
 .navBar {
-  /*  display: flex;
-  justify-content: center; */
-  padding: 0.8% 0 0 0;
-}
-
-ul {
   display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  height: 100%;
-  list-style: none;
+  justify-content: center;
+  padding: 0.6% 0 0 0;
 }
-li {
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-}
-
 .projects {
   display: flex;
   justify-content: space-evenly;
+}
+.aboutMe {
+  display: flex;
+  padding: 8% 8% 8% 8%;
+  flex-wrap: wrap;
+}
+.edBack {
+  display: flex;
+  padding: 8% 8% 8% 8%;
+  flex-wrap: wrap;
 }
 .flip-card {
   margin: auto;
@@ -175,7 +164,6 @@ li {
   height: 100px;
   perspective: 1000px;
 }
-
 .flip-card-inner {
   position: relative;
   display: flex;
@@ -258,6 +246,23 @@ li {
   color: rgb(0, 0, 0);
   transform: rotateY(180deg);
 }
+h1,
+h2,
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: xx-large;
+}
+p,
+li {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: small;
+}
 
 /* .flip-card-front {
   display: flex;
@@ -278,12 +283,10 @@ li {
 } */
 
 .siteHeader,
-.footer,
-.picOfMe,
+.siteFooter,
 .aboutMe,
 .navBar,
 .edBack,
-.picOfMeTwo,
 .techSkills,
 .softSkills,
 .projects {
@@ -291,16 +294,13 @@ li {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-family: sans-serif;
-  border-color: #bad2d3;
+  border-color:black;
   border-style: solid;
   border-width: thick;
 }
 
 .siteHeader {
   grid-area: header;
-}
-.picOfMe {
-  grid-area: picOfMe;
 }
 .aboutMe {
   grid-area: aboutMe;
@@ -314,9 +314,6 @@ li {
 .edBack {
   grid-area: edBack;
 }
-.picOfMeTwo {
-  grid-area: picOfMeTwo;
-}
 .techSkills {
   grid-area: techSkills;
 }
@@ -326,22 +323,20 @@ li {
 .projects {
   grid-area: projects;
 }
-.footer {
+.siteFooter {
   grid-area: footer;
 }
 
 /*Mobile*/
 @media (max-width: 600px) {
   .siteHeader,
-  .picOfMe,
   .aboutMe,
   .navBar,
   .edBack,
-  .picOfMeTwo,
   .techSkills,
   .softSkills,
   .projects,
-  .footer {
+  .siteFooter {
     background-color: aquamarine;
   }
   .gridContainer {
@@ -352,27 +347,22 @@ li {
     padding: 0 5% 0 5%;
     margin: auto auto auto auto; /* Dubbel kolla detta*/
 
-    grid-template-rows: 25% 30% 20% 40% 30% 50% 25% 40% 20% 20%; /*ÄNDRA SEN */
+    grid-template-rows: 20% 5% 50% 50% 50% 50% 20% 20%; /*ÄNDRA SEN */
     /* grid-template-columns: ; */ /*ÄNDRA SEN FÖR att få pillars till projecten*/
     gap: 30px;
 
     grid-template-areas:
       "header header header header header header"
-      "picOfMe picOfMe picOfMe picOfMe picOfMe picOfMe"
       "navBar navBar navBar navBar navBar navBar"
-      "aboutMe aboutMe aboutMe aboutMe aboutMe aboutMe"
-      "picOfMeTwo picOfMeTwo picOfMeTwo picOfMeTwo picOfMeTwo picOfMeTwo"
-      "techSkills techSkills techSkills techSkills techSkills techSkills"
       "edBack edBack edBack edBack edBack edBack"
+      "aboutMe aboutMe aboutMe aboutMe aboutMe aboutMe"
+      "techSkills techSkills techSkills techSkills techSkills techSkills"
       "softSkills softSkills softSkills softSkills softSkills softSkills"
       "projects projects projects projects projects projects"
       "footer footer footer footer footer footer";
   }
   .siteHeader {
     grid-area: header;
-  }
-  .picOfMe {
-    grid-area: picOfMe;
   }
   .aboutMe {
     grid-area: aboutMe;
@@ -386,9 +376,6 @@ li {
   .edBack {
     grid-area: edBack;
   }
-  .picOfMeTwo {
-    grid-area: picOfMeTwo;
-  }
   .techSkills {
     grid-area: techSkills;
   }
@@ -398,7 +385,7 @@ li {
   .projects {
     grid-area: projects;
   }
-  .footer {
+  .SiteFooter {
     grid-area: footer;
   }
 }
