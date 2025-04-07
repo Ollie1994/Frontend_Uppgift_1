@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const changeColorButton = document.getElementById("change-color");
   /*   const colored = document.getElementById("colored");  BEHÖVER JAG DENNA ????*/
   const nodeList = document.querySelectorAll(
-    "body, html, .site-header, .footer, .aboutMe, .techSkills, .softSkills, .edBack, .navBar, .projects, .picOfMe, .picOfMeTwo"
+    "body, html, .siteHeader, .footer, .aboutMe, .techSkills, .softSkills, .edBack, .navBar, .projects, .picOfMe, .picOfMeTwo"
   );
   const nodeListTextColor = document.querySelectorAll(
-    ".line-md--light-dark, a, .site-header, .footer, .aboutMe, .techSkills, .softSkills, .edBack, .navBar, .projects, .picOfMe, .picOfMeTwo"
+    ".line-md--light-dark, a, .siteHeader, .footer, .aboutMe, .techSkills, .softSkills, .edBack, .navBar, .projects, .picOfMe, .picOfMeTwo"
   );
 
   for (let i = 0; i < nodeList.length; i++) {
