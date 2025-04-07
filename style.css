@@ -123,7 +123,7 @@ button {
     "projects projects projects projects projects projects"
     "footer footer footer footer footer footer";
 }
-.header {
+.site-header {
   display: flex;
   justify-content: space-between;
 
@@ -277,7 +277,7 @@ li {
   transform: rotateY(180deg);
 } */
 
-.header,
+.site-header,
 .footer,
 .picOfMe,
 .aboutMe,
@@ -287,16 +287,16 @@ li {
 .techSkills,
 .softSkills,
 .projects {
-  background-color: rgb(87, 231, 80);
+  background-color: rgb(255, 255, 255);
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-family: sans-serif;
-  border-color: #7fe1e5;
+  border-color: #bad2d3;
   border-style: solid;
   border-width: thick;
 }
 
-.header {
+.site-header {
   grid-area: header;
 }
 .picOfMe {
@@ -332,7 +332,7 @@ li {
 
 /*Mobile*/
 @media (max-width: 600px) {
-  .header,
+  .site-header,
   .picOfMe,
   .aboutMe,
   .navBar,
@@ -368,7 +368,7 @@ li {
       "projects projects projects projects projects projects"
       "footer footer footer footer footer footer";
   }
-  .header {
+  .site-header {
     grid-area: header;
   }
   .picOfMe {

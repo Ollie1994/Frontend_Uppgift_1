@@ -1,4 +1,4 @@
-/* https://www.w3schools.com/jsref/met_document_queryselectorall.asp */
+/*https://www.w3schools.com/jsref/met_document_queryselectorall.asp*/
 /*https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage*/
 /*https://developer.chrome.com/docs/devtools/storage/localstorage*/
 /*https://sabe.io/blog/javascript-change-text-color*/
@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const changeColorButton = document.getElementById("change-color");
   /*   const colored = document.getElementById("colored");  BEHÖVER JAG DENNA ????*/
   const nodeList = document.querySelectorAll(
-    "body, html, .header, .footer, .aboutMe, .techSkills, .softSkills, .edBack, .navBar, .projects, .picOfMe, .picOfMeTwo"
+    "body, html, .site-header, .footer, .aboutMe, .techSkills, .softSkills, .edBack, .navBar, .projects, .picOfMe, .picOfMeTwo"
   );
   const nodeListTextColor = document.querySelectorAll(
-    ".line-md--light-dark, a, .header, .footer, .aboutMe, .techSkills, .softSkills, .edBack, .navBar, .projects, .picOfMe, .picOfMeTwo"
+    ".line-md--light-dark, a, .site-header, .footer, .aboutMe, .techSkills, .softSkills, .edBack, .navBar, .projects, .picOfMe, .picOfMeTwo"
   );
 
   for (let i = 0; i < nodeList.length; i++) {
