@@ -1,4 +1,4 @@
-# readMeG
+# G - delen
 
 Projeket är en typ av prototyp av ett cv/portfolio som ska visa upp kunskaper kring Css, Html och JS. Cv´t består av en sida för att folk som kolla på det ska få tillgång till all info direkt. Jag valde en väldigt basic html/css layout då jag ville fokusera på att implementera ett fullständigt light/dark mode med JS.
 Jag valde att använda grid och flex, först så målade jag upp hela min layout med grid template areas, sedan så använde jag flex på de individuella elemented för att flytta runt elementen initu grid elementen.
@@ -17,7 +17,7 @@ Jag la också till kommentarer i Html´n för att göra det tydligt vart ett ele
 
 L/D modet fick jag insperation från Helena då hon visade upp ett exempel på hur man ändrade färg på ett element med javascript. Efter det så hade jag en väldigt "bra" ide hur jag ville uppnå ett ldM och satt hela helgen och till jag hade fixat det. ldM´t anväder sig av eventliseners "click" och querySelectorAll för att ändra mnellan L o D samt localStorage för att spara "inställningen" så att varje gång sidan laddar in så ligger L elelr D kvar beroende på vilken du valde sist.
 
-# readMeVg
+# Vg - delen
 
 I denna reflektions del så kommer jag att diskutera och reflektera över det val jag gjort under uppgiftens gång, det utmaningarna jag haft och hur jag överkom eller inte överkom de och de lärdommar jag kan ta med mig till nästa projekt.
 
@@ -50,23 +50,17 @@ I denna reflektions del så kommer jag att diskutera och reflektera över det va
 
 - Vad för val gjordes?
   - Jag valde att använda både Grid och FlexBox
-- Varför gjordes det valet över ett annat?
-  -
-- Vad blev konsekvenserna över det valet?
-  -
-- Och till slut kommer jag att dela med mig av några personlgia reflektioner kring beslutet.
-  -
+- ## Varför gjordes det valet över ett annat?
+- ## Vad blev konsekvenserna över det valet?
+- ## Och till slut kommer jag att dela med mig av några personlgia reflektioner kring beslutet.
 
 ### !Ai
 
 - Vad för val gjordes?
   - Jag valde att inte använda Ai under denna uppgift
-- Varför gjordes det valet över ett annat?
-  -
-- Vad blev konsekvenserna över det valet?
-  -
-- Och till slut kommer jag att dela med mig av några personlgia reflektioner kring beslutet.
-  -
+- ## Varför gjordes det valet över ett annat?
+- ## Vad blev konsekvenserna över det valet?
+- ## Och till slut kommer jag att dela med mig av några personlgia reflektioner kring beslutet.
 
 ## Utmaningar
 
