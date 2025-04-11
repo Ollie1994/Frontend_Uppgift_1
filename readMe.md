@@ -18,10 +18,10 @@ Jag valde att använda grid och flex, först så målade jag upp hela min layout
 
 }
 
-readMeVg {
+***readMeVg*** {
 I denna reflektions del så kommer jag att diskutera och reflektera över det val jag gjort under uppgiftens gång, det utmaningarna jag haft och hur jag överkom eller inte överkom de och de lärdommar jag kan ta med mig till nästa projekt.
 
-    Val {
+    *Val* {
         De val jag kommar att analysera är följande:
         - Val av LDM och LS som fokus för vg delen
         - Val att använda både Grid och FlexBox
@@ -41,7 +41,7 @@ I denna reflektions del så kommer jag att diskutera och reflektera över det va
                 -
             - Och till slut kommer jag att dela med mig av några personlgia reflektioner kring beslutet.
         }
-         Grid och FlexBox {
+         *Grid och FlexBox* {
             - Vad för val gjordes?
                 -
             - Varför gjordes det valet över ett annat?
@@ -69,7 +69,7 @@ I denna reflektions del så kommer jag att diskutera och reflektera över det va
         - Html och Css layout
 
     }
-    
+
     Lärdomar {
         De lärdomar jag kommer att diskutera är:
 
