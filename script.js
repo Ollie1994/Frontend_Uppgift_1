@@ -5,6 +5,7 @@
 /*https://stackoverflow.com/questions/40095117/looping-over-two-arrays-with-different-length-and-correctly-sorting-the-output*/
 
 document.addEventListener("DOMContentLoaded", function () {
+  /*Hämtar LS inställning för LDM*/
   let localStorageColor = localStorage.getItem("color");
   let localStorageColorText = localStorage.getItem("color");
   console.log(localStorageColor);
@@ -24,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ".line-md--light-dark, a, .siteHeader, .siteFooter, .aboutMe, .techSkills, .softSkills, .edBack, .navBar, .pP, .pS, .pT"
   );
 
+  /* Sätter backgroundcolor och color för text och border beroende på vad som finns i LS */
   for (let i = 0; i < nodeList.length; i++) {
     nodeList[i].style.backgroundColor = localStorageColor;
     console.log("list" + nodeList[i]);
@@ -40,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let currentColorText = nodeListTextColor[i].style.color;
     console.log("0.5 = " + currentColor);
 
+    /*Sätter backgroundcolor color och borderColor vid knapptryck på all element */
     if (currentColor === "rgb(0, 0, 0)") {
       const whiteC = "rgb(255, 255, 255)";
       currentColor = whiteC;
