@@ -19,7 +19,7 @@ L/D modet fick jag insperation från Helena då hon visade upp ett exempel på h
 
 # Vg - delen
 
-I denna reflektions del så kommer jag att diskutera och reflektera över det val jag gjort under uppgiftens gång, det utmaningarna jag haft och hur jag överkom eller inte överkom de och de lärdommar jag kan ta med mig till nästa projekt.
+I denna reflektions del så kommer jag att diskutera och reflektera över det val jag gjort under uppgiftens gång, det utmaningarna jag haft och hur jag överkom eller inte överkom de och de lärdommar jag kan ta med mig till nästa projekt, och tillslut kommer jag prata lite om framtidaförbättringar.
 
 ## Val
 
@@ -93,12 +93,17 @@ I denna reflektions del så kommer jag att diskutera och reflektera över det va
 
 - Jag står fast vid att Google över Ai i 90% av allt när det kommer till lärande processen. Det enda jag tror Ai slår Google på är förmågan att generera saker såsom mockdata och lite annant smått och gott.
 
-### Html och Css
+### Överkomplicerade LDM
 
-- För att jag ska kunna jobba effektivt med detta i framtiden så behöver jag hålla mig väldigt struklturerad.
+- För att jag ska kunna jobba effektivt med detta i framtiden så behöver jag hålla mig väldigt struklturerad. I framtiden så hade jag kortat ned koden och skapat en css klass för alla element som använder samma "inställningar" och på så sätt slippa ha så mycket duplicerad "kod".
 
 ### Grid Struktur
 
 - Fantastiskt, detta hjälpte mig enormt då jag fick en visuell bild på min layout och det blev mycket enklare att göra ändringar och justeringar när allt var uppdelat i ett grid.
+
+## Framtida Förbättringar
+
+- När jag fortsätter utveckla detta i framtiden så kommer jag vilja skriva om en del tex för att göra den mer streamlina och se till att den är mer relevant för utvecklar rollen. Jag hade vilja fixa till Css klasserna så att det inte finns 100 klasser för 100 element särskilt när 50 element anvädner exakt samma saker. Hade också viljat se över min JS kod för att få bort en massa stökig kod och fixa LDM så att den itne är så önödigt lång.
+  Jag hade också vilja fixa en snygg bild på mig själ och lägga till. Jag skulle också vilja lägga till lite mer färger så att designar "POPPAR" lite mer, särskilt på projekt biten, då jag det är där jag verkligen visar uopp mian kusnkapr och har möjligheten att imponera rekryterare osv.
 
 Oliwer Karlsson - Java24
