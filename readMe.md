@@ -21,47 +21,62 @@ Jag valde att använda grid och flex, först så målade jag upp hela min layout
 readMeVg {
 I denna reflektions del så kommer jag att diskutera och reflektera över det val jag gjort under uppgiftens gång, det utmaningarna jag haft och hur jag överkom eller inte överkom de och de lärdommar jag kan ta med mig till nästa projekt.
 
-Val {
-De val jag kommar att analysera är följande:
+    Val {
+        De val jag kommar att analysera är följande:
+        - Val av LDM och LS som fokus för vg delen
+        - Val att använda både Grid och FlexBox
+        - Val att inte använda Ai och fokusera på att googla istället
 
-- Val av LDM och LS som fokus för vg delen
-- Val att använda både Grid och FlexBox
-- Val att inte använda Ai och fokusera på att googla istället
+        Jag kommer att ställa frågorna:
+        - Vad för val gjordes?
+        - Varför gjordes det valet över ett annat?
+        - Vad blev konsekvenserna över det valet?
+        Och till slut kommer jag att dela med mig av några personlgia reflektioner kring beslutet.
+        LDM och LS {
+            - Vad för val gjordes?
+                - Jag valde att implementera ett Light och Dark mode med LocalStorage
+            - Varför gjordes det valet över ett annat?
+                -
+            - Vad blev konsekvenserna över det valet?
+                -
+            - Och till slut kommer jag att dela med mig av några personlgia reflektioner kring beslutet.
+        }
+         Grid och FlexBox {
+            - Vad för val gjordes?
+                -
+            - Varför gjordes det valet över ett annat?
+                -
+            - Vad blev konsekvenserna över det valet?
+                -
+            - Och till slut kommer jag att dela med mig av några personlgia reflektioner kring beslutet.
+                -
+        }
+          !Ai {
+            - Vad för val gjordes?
+                -
+            - Varför gjordes det valet över ett annat?
+                -
+            - Vad blev konsekvenserna över det valet?
+                -
+            - Och till slut kommer jag att dela med mig av några personlgia reflektioner kring beslutet.
+        }
+    }
 
-Jag kommer att ställa frågorna:
-- Vad för val gjordes?
-- Varför gjordes det valet över ett annat?
-- Vad blev konsekvenserna över det valet?
-Och till slut kommer jag att dela med mig av några personlgia reflektioner kring beslutet.
+    Utmaningar {
+        De utmaningar jag kommer att diskutera är:
 
-LDM och LS {
-- Vad för val gjordes?
-    - Jag valde att implementera ett Light och Dark mode med LocalStorage
-- Varför gjordes det valet över ett annat?
-    - 
-  
+        - Framtagandet av LDM/LS
+        - Html och Css layout
 
-}
+    }
+    
+    Lärdomar {
+        De lärdomar jag kommer att diskutera är:
 
+        - AI vs Google
+        - Det överkomplicerade sättet jag skapa mitt LDM på
+        - Grid struktur först
 
+    }
 
-
-  }
-
-Utmaningar {
-De utmaningar jag kommer att diskutera är:
-
-- Framtagandet av LDM/LS
-- Html och Css layout
-
-}
-
-Lärdomar {
-De lärdomar jag kommer att diskutera är:
-
-- AI vs Google
-- Det överkomplicerade sättet jag skapa mitt LDM på
-- Grid struktur först
-
-}
 }
